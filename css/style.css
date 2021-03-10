@@ -1,0 +1,46 @@
+.title {
+  color: #2196f3;
+}
+.title-2 {
+  color: black;
+}
+.title-3 {
+  color: white;
+}
+.list :hover {
+  color: #2196f3;
+}
+.list {
+  color: black;
+}
+.list-2 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.list-2 :hover {
+  color: #2196f3;
+}
+.main-section {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.button-2 :hover {
+  background-color: red;
+}
+
+p {
+  color: #757575;
+}
+.address :hover {
+  color: #2196f3;
+}
+.address {
+  color: white;
+}
+li {
+  background-color: transparent;
+}
