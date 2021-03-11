@@ -31,6 +31,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  list-style-type: none;
 }
 .link {
   text-decoration: none;
@@ -57,6 +58,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  list-style-type: none;
 }
 .list-2 :hover {
   color: #2196f3;
@@ -109,6 +111,12 @@ p {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.third-section-list {
+  list-style-type: none;
+}
+.proffession-section-list {
+  list-style-type: none;
+}
 /* portfolio section*/
 .names-section {
   font-family: Roboto;
@@ -123,7 +131,9 @@ p {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
+.button-section {
+  list-style-type: none;
+}
 .description-section {
   font-family: Roboto;
   font-size: 14px;
@@ -136,6 +146,12 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.photos-and-description-section {
+  list-style-type: none;
+}
+.list-section {
+  list-style-type: none;
 }
 .portfolio-description {
   font-family: Roboto;
