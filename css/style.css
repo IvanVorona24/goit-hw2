@@ -8,19 +8,17 @@ p {
 .title {
   color: #2196f3;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .title-2 {
   color: black;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .list :hover {
@@ -29,13 +27,14 @@ p {
 .list {
   color: black;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
-
+.link {
+  text-decoration: none;
+}
 /* footer*/
 
 .main-section {
@@ -46,20 +45,17 @@ p {
 .title-3 {
   color: white;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .list-2 {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .list-2 :hover {
@@ -71,98 +67,86 @@ p {
 .address {
   color: white;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 /* main section  */
 .button {
   background-color: #2196f3;
   color: #ffffff;
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .button-2:hover {
   background-color: #2196f3;
 }
 .button-2 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .main-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
 }
 
 .third-section-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 /* portfolio section*/
 .names-section {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .profession-section {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
 .description-section {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
 .description-section-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .portfolio-description {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 .portfolio-description-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
