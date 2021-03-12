@@ -4,6 +4,7 @@ body {
 p {
   color: #757575;
 }
+
 /* header */
 .title {
   color: #2196f3;
@@ -35,14 +36,21 @@ p {
 }
 .link {
   text-decoration: none;
+  color: black;
+}
+.link-2 {
+  color: #757575;
+  text-decoration: none;
+}
+.link-3 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
 /* footer*/
-
 .main-section {
   background-color: #2f303a;
   color: #ffffff;
 }
-
 .title-3 {
   color: white;
   font-family: Raleway;
@@ -51,13 +59,13 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
 .list-2 {
-  color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
   list-style-type: none;
 }
 .list-2 :hover {
@@ -73,6 +81,7 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
 }
 /* main section  */
 .button {
@@ -102,6 +111,7 @@ p {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .third-section-title {
@@ -146,6 +156,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .photos-and-description-section {
   list-style-type: none;
