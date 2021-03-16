@@ -1,11 +1,30 @@
+html{
+
+  box-sizing: border-box;
+}
+
+*,*::before,
+*::after{
+  box-sizing: inherit;
+}
 body {
   font-family: Roboto, sans-serif;
+  width: 1600px;
+  height: 2349px;
+  top: -1175px;
+  left: -1675px;
 }
 p {
   color: #757575;
 }
 
 /* header */
+.main-container{
+display: flex;
+width: 1600px;
+height: 80px;
+}
+
 .title {
   color: #2196f3;
   font-family: Raleway;
@@ -13,6 +32,7 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  
 }
 .title-2 {
   color: black;
@@ -37,6 +57,7 @@ p {
 .link {
   text-decoration: none;
   color: black;
+
 }
 .link-2 {
   color: #757575;
@@ -50,6 +71,8 @@ p {
 .main-section {
   background-color: #2f303a;
   color: #ffffff;
+  width: 1600px;
+  height: 600px;
 }
 .title-3 {
   color: white;
@@ -93,6 +116,11 @@ p {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 32px;
+  
 }
 .button-2:hover {
   background-color: #2196f3;
@@ -112,6 +140,8 @@ p {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
+
 }
 
 .third-section-title {
@@ -177,3 +207,4 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
